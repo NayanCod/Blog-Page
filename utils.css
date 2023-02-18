@@ -1,0 +1,88 @@
+.arialFont{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.wid-90{
+    width: 90%;
+    margin: auto;
+}
+.wid-50{
+    width: 50%;
+    margin: auto;
+}
+.wid-25{
+    width: 25%;
+    margin: auto;
+}
+.wid-80{
+    width: 80%;
+    margin: auto;
+}
+.wid-75{
+    width: 75%;
+    margin: auto;
+}
+.alignItemCentre{
+    align-items: center;
+}
+.flex{
+    display: flex;
+}
+.flexBetween{
+    display: flex;
+    justify-content: space-between;
+}
+.flexEven{
+    display: flex;
+    justify-content: space-evenly;
+}
+.flexAround{
+    display: flex;
+    justify-content: space-around;
+}
+.flexCentre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexAlign{
+    display: flex;
+    align-items: center;
+}
+.sansSerif{
+    font-family: sans-serif;
+}
+input:focus{
+    outline: none;
+}
+.searchBtn {
+    padding: 7px 11px;
+    border-radius: 4px;
+    border: none;
+    margin-left: -1px;
+    background-color: var(--primary-Color);
+    cursor: pointer;
+    color: #fff;
+    transition: 0.2s;
+}
+.searchBtn:hover{
+    color: var(--primary-Color);
+    background-color: #fff;
+}
+.myb-20{
+    margin-bottom: 20px;
+}
+.relative{
+    position: relative;
+}
+.gap-40{
+    gap: 40px;
+}
+.myb-40{
+    margin-bottom: 40px;
+}
